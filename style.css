@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    background:#f2f0f0;
+    color:white;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:#07eda0;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    color:rgb(14, 13, 13);
+}
+
+.contact-container{
+    width:80%;
+    margin:30px auto;
+    display:flex;
+    gap:20px;
+}
+
+.contact-info,
+.contact-form{
+    flex:1;
+    background:#222;
+    padding:20px;
+    border-radius:10px;
+}
+
+.contact-info h2,
+.contact-form h2{
+    color:gold;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    background:gold;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.map{
+    width:80%;
+    margin:30px auto;
+}
+
+.map h2{
+    color:gold;
+}
+
+iframe{
+    width:100%;
+    height:350px;
+    border:none;
+}
